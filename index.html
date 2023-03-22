@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 
 <head>
-
     <meta charset="UTF-8"> 
     <title>Portifólio Gabriel G Barreto</title>
     <link rel="icon" href="/images/favicon.webp">
-
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <style>
+        h1 {font-family: 'Fasthand', cursive;}
+        #resumo-foto {font-family: monospace;}
+        body {background-color: burlywood;}
+        #foto {border-radius: 100%;}
+        .button{background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 10px;}
+        .skills{font-size: 20px;}
+        h3 {font-size: 30px;}
+        #apresentação {font-size: 20px;}
+    </style>
 </head>
 
 <body>
     <ul>
+        <li><a href="#foto">Foto</a></li>
         <li><a href="#apresentação">Apresentação</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
     </ul>
-    <h1><a href="#skills">Gabriel Gaspar Barreto</a></h1>
-    <img id="skills" src="/images/IMG_20211209_221218_434.jpg" alt="Foto de Gabriel Gaspar Barreto" width="450">
-    <p>
+    <h1>Gabriel Gaspar Barreto</h1>
+    <img id="foto" src="/images/IMG_20211209_221218_434.jpg" alt="Foto de Gabriel Gaspar Barreto" width="450">
+    <p id="resumo-foto">
         <strong>Foto casual tirada no antigo apartamento em Niterói</strong>
         <br>
     </p>
@@ -25,21 +39,23 @@
         Sonho em me tornar um desenvolvedor de sucesso após minha trajetória na Trybe e estou <br>
         disposto a me dedicar integralmente para isso.
     </p>
-    <a href="https://www.linkedin.com/in/gabrielgasparbarreto/" target="_blank">LinkedIn</a>
+    <a class="button" href="https://www.linkedin.com/in/gabrielgasparbarreto/" target="_blank">LinkedIn</a>
     <br>
-    <a href="https://github.com/GabrielGBarreto" target="_blank">GitHub</a>
+    <br>
+    <a class="button" href="https://github.com/GabrielGBarreto" target="_blank">GitHub</a>
     <h3>Habilidades que mais valorizo</h3>
     <ul id="habilidades">
-        <li>Devoção familiar</li>
-        <li>Dedicação</li>
-        <li>Inteligência</li>
-        <li>Responsabilidade</li>
-        <li>Pontualidade</li>
+        <li class="skills">Devoção familiar</li>
+        <li class="skills">Dedicação</li>
+        <li class="skills">Inteligência</li>
+        <li class="skills">Responsabilidade</li>
+        <li class="skills">Pontualidade</li>
     </ul>
     <h3>Outras habilidades</h3>
     <ul>
-        <li>Git</li>
-        <li>HTML</li>
+        <li class="skills">Git</li>
+        <li class="skills">HTML</li>
+        <li class="skills">CSS</li>
     </ul>
 
 </body>
