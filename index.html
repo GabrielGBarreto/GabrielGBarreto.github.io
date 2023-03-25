@@ -5,57 +5,65 @@
     <title>Portifólio Gabriel G Barreto</title>
     <link rel="icon" href="/images/favicon.webp">
     <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
-    <style>
-        h1 {font-family: 'Fasthand', cursive;}
-        #resumo-foto {font-family: monospace;}
-        body {background-color: burlywood;}
-        #foto {border-radius: 100%;}
-        .button{background-color: black;
-            color: white;
-            text-decoration: none;
-            padding: 5px 10px;
-            border-radius: 10px;}
-        .skills{font-size: 20px;}
-        h3 {font-size: 30px;}
-        #apresentação {font-size: 20px;}
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
+
     <ul>
         <li><a href="#foto">Foto</a></li>
         <li><a href="#apresentação">Apresentação</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
     </ul>
-    <h1>Gabriel Gaspar Barreto</h1>
-    <img id="foto" src="/images/IMG_20211209_221218_434.jpg" alt="Foto de Gabriel Gaspar Barreto" width="450">
-    <p id="resumo-foto">
-        <strong>Foto casual tirada no antigo apartamento em Niterói</strong>
-        <br>
-    </p>
+
+    <div id="header">
+        <h1>Gabriel Gaspar Barreto</h1>
+    </div>
+
+    <div id="img">
+        <img id="foto" src="/images/IMG_20211209_221218_434.jpg" alt="Foto de Gabriel Gaspar Barreto" width="450">
+    </div>
+
+    <div id="resumo-foto">
+        <p>
+            <strong>Foto casual tirada no antigo apartamento em Niterói</strong>
+            <br>
+        </p>
+    </div>
+
     <p id="apresentação">
         Ex-acadêmico de Engenharia, atualmente sou estudante de desenvolvimento web na Trybe, <br>
         moro em Muqui, no interior do Espírito Santo com minha avó, de quem cuido, e minha cachorra. <br>
         Sonho em me tornar um desenvolvedor de sucesso após minha trajetória na Trybe e estou <br>
         disposto a me dedicar integralmente para isso.
     </p>
+
     <a class="button" href="https://www.linkedin.com/in/gabrielgasparbarreto/" target="_blank">LinkedIn</a>
+
     <br>
     <br>
+
     <a class="button" href="https://github.com/GabrielGBarreto" target="_blank">GitHub</a>
+
     <h3>Habilidades que mais valorizo</h3>
+
     <ul id="habilidades">
-        <li class="skills">Devoção familiar</li>
+        <li class="skills impar">Devoção familiar</li>
         <li class="skills">Dedicação</li>
-        <li class="skills">Inteligência</li>
+        <li class="skills impar">Inteligência</li>
         <li class="skills">Responsabilidade</li>
-        <li class="skills">Pontualidade</li>
+        <li class="skills impar">Pontualidade</li>
     </ul>
+
     <h3>Outras habilidades</h3>
+
     <ul>
-        <li class="skills">Git</li>
-        <li class="skills">HTML</li>
+        <li class="skills impar">Git</li>
+        <li Class="skills">GitHub</li>
+        <li class="skills impar">HTML</li>
         <li class="skills">CSS</li>
+        <li class="skills impar">HTML Semântico</li>
     </ul>
 
 </body>
