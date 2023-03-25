@@ -1,0 +1,35 @@
+h1 {font-family: 'Fasthand', cursive;
+text-align: center;}
+
+#resumo-foto {font-family: monospace;
+float: right;
+position: absolute;
+left: 600px;
+top: 350px
+}
+
+body {background-color: burlywood;}
+
+#foto {border-radius: 100%;}
+
+.button{background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;}
+
+.skills{font-size: 20px;}
+
+h3 {font-size: 30px;}
+
+#apresentação {font-size: 20px;
+clear: both;
+padding-top: 30px;}
+
+#img {float: left;
+;}
+
+.impar{font-family:monospace;
+font-size: 25px;
+font-style: italic
+}
